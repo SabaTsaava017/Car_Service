@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მანქანების სერვისი</title>
+    <link rel="stylesheet" href="oil.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="brand">ავტოსერვისი</div>
+            <ul class="nav-links">
+                <li><a href="index.html">მთავარი</a></li>
+                <li><a href="about.html">ჩვენს შესახებ</a></li>
+                <li><a href="services.html">სერვისები</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" placeholder="ძიება..." id="search-bar">
+                <button onclick="navigatePage()">ძებნა</button>
+            </div>
+        </nav>
+    </header>
+
+     <main>
+        <h1>ძრავის ზეთები</h1>
+    </main>
+
+    
+    <div class="T_shirt_product_div">
+        <div class="T_shirt_product">
+            <p class="club_name">Castrol EDGE 5W-30</p>
+            <img src="./imige/castrol.jpg" alt="Castrol ზეთი" class="T_shirt">
+            <p class="product_price">85₾</p>
+            <button class="add-to-cart-button" onclick="addToCart('Castrol EDGE 5W-30', 85, './imige/castrol.jpg')">🛒 კალათაში დამატება</button>
+        </div>
+
+        <div class="T_shirt_product">
+            <p class="club_name">Mobil 1 5W-40</p>
+            <img src="./imige/mobil1.jpg" alt="Mobil ზეთი" class="T_shirt">
+            <p class="product_price">90₾</p>
+            <button class="add-to-cart-button" onclick="addToCart('Mobil 1 5W-40', 90, './imige/mobil1.jpg')">🛒 კალათაში დამატება</button>
+        </div>
+
+        <div class="T_shirt_product">
+            <p class="club_name">Liqui Moly 10W-40</p>
+            <img src="./imige/liquimoly.jpg" alt="Liqui Moly ზეთი" class="T_shirt">
+            <p class="product_price">80₾</p>
+            <button class="add-to-cart-button" onclick="addToCart('Liqui Moly 10W-40', 80, './imige/liquimoly.jpg')">🛒 კალათაში დამატება</button>
+        </div>
+
+        <div class="T_shirt_product">
+            <p class="club_name">Shell Helix Ultra 5W-30</p>
+            <img src="./imige/shellhelix.jpg" alt="Shell ზეთი" class="T_shirt">
+            <p class="product_price">95₾</p>
+            <button class="add-to-cart-button" onclick="addToCart('Shell Helix Ultra 5W-30', 95, './imige/shellhelix.jpg')">🛒 კალათაში დამატება</button>
+        </div>
+
+        <div class="T_shirt_product">
+            <p class="club_name">Total Quartz 7000 10W-40</p>
+            <img src="./imige/total.jpg" alt="Total ზეთი" class="T_shirt">
+            <p class="product_price">75₾</p>
+            <button class="add-to-cart-button" onclick="addToCart('Total Quartz 7000 10W-40', 75, './imige/total.jpg')">🛒 კალათაში დამატება</button>
+        </div>
+
+        <div class="T_shirt_product">
+            <p class="club_name">Valvoline SynPower 5W-40</p>
+            <img src="./imige/valvoline.jpg" alt="Valvoline ზეთი" class="T_shirt">
+            <p class="product_price">88₾</p>
+            <button class="add-to-cart-button" onclick="addToCart('Valvoline SynPower 5W-40', 88, './imige/valvoline.jpg')">🛒 კალათაში დამატება</button>
+        </div>
+        <div class="T_shirt_product">
+            <p class="club_name">Valvoline SynPower 5W-40</p>
+            <img src="./imige/valvoline.jpg" alt="Valvoline ზეთი" class="T_shirt">
+            <p class="product_price">88₾</p>
+            <button class="add-to-cart-button" onclick="addToCart('Valvoline SynPower 5W-40', 88, './imige/valvoline.jpg')">🛒 კალათაში დამატება</button>
+        </div>
+        <div class="T_shirt_product">
+            <p class="club_name">Valvoline SynPower 5W-40</p>
+            <img src="./imige/valvoline.jpg" alt="Valvoline ზეთი" class="T_shirt">
+            <p class="product_price">88₾</p>
+            <button class="add-to-cart-button" onclick="addToCart('Valvoline SynPower 5W-40', 88, './imige/valvoline.jpg')">🛒 კალათაში დამატება</button>
+        </div>
+        <div class="T_shirt_product">
+            <p class="club_name">Valvoline SynPower 5W-40</p>
+            <img src="./imige/valvoline.jpg" alt="Valvoline ზეთი" class="T_shirt">
+            <p class="product_price">88₾</p>
+            <button class="add-to-cart-button" onclick="addToCart('Valvoline SynPower 5W-40', 88, './imige/valvoline.jpg')">🛒 კალათაში დამატება</button>
+        </div>
+        <div class="T_shirt_product">
+            <p class="club_name">Valvoline SynPower 5W-40</p>
+            <img src="./imige/valvoline.jpg" alt="Valvoline ზეთი" class="T_shirt">
+            <p class="product_price">88₾</p>
+            <button class="add-to-cart-button" onclick="addToCart('Valvoline SynPower 5W-40', 88, './imige/valvoline.jpg')">🛒 კალათაში დამატება</button>
+        </div>
+        <div class="T_shirt_product">
+            <p class="club_name">Valvoline SynPower 5W-40</p>
+            <img src="./imige/valvoline.jpg" alt="Valvoline ზეთი" class="T_shirt">
+            <p class="product_price">88₾</p>
+            <button class="add-to-cart-button" onclick="addToCart('Valvoline SynPower 5W-40', 88, './imige/valvoline.jpg')">🛒 კალათაში დამატება</button>
+        </div>
+        <div class="T_shirt_product">
+            <p class="club_name">Valvoline SynPower 5W-40</p>
+            <img src="./imige/valvoline.jpg" alt="Valvoline ზეთი" class="T_shirt">
+            <p class="product_price">88₾</p>
+            <button class="add-to-cart-button" onclick="addToCart('Valvoline SynPower 5W-40', 88, './imige/valvoline.jpg')">🛒 კალათაში დამატება</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 ჩვენი კომპანია</p>
+    </footer>
+
+    <script src="cart.js"></script>
+
+    
+</body>
+</html>
